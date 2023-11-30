@@ -39,7 +39,7 @@ iface = gr.Interface(
     ],
     outputs=gr.Textbox(label="Response"),
     live=False,  
-    title= f"<div style='text-align: center;'><img src='data:image/png;base64,{encoded_image}' alt='Logo' style='max-width: 150px; margin: 0 auto;'> KPMG CodeGaurd",
+    title= f"<div style='text-align: center;'><img src='data:image/png;base64,{encoded_image}' alt='Logo' style='max-width: 150px; margin: 0 auto;'> CodeGaurd",
     thumbnail = logo_url,
     description="<div style='background-color: #3498db; padding: 10px;text-align: center'><h2 style='color: white;'>Empowering Effortless Application Building</h2></div>",
     allow_flagging = "never", 
